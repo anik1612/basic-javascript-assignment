@@ -20,7 +20,7 @@ function woodCalculator(chair, table, bed) {
     //execute if when value greater than zero
     if (chair && table && bed > 0) {
         forChair = chair * 1; //forChair wood need 1 CFT 
-        forTable = table * 3; //forChair wood need 3 CFT
+        forTable = table * 3; //forTable wood need 3 CFT
         forBed = bed * 5; //forBed wood need 5 CFT
         totalWood = (forChair + forTable + forBed); //total wood calculation
         return totalWood;
