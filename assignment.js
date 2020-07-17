@@ -84,6 +84,6 @@ function tinyFriend(friendsName) {
                 tinyFriendName = friendsName[i]; // store smallest name in tinyFriendName 
             }
         }
-        return tinyFriendName; // return name to function caller 
+        return tinyFriendName; // return smallest string to function caller 
     }
 }
