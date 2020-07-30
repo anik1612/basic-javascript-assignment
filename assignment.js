@@ -46,11 +46,11 @@ function brickCalculator(floor) {
         if (floor >= 1 && floor <= 10) {
             var floorHeight = floor * 15; // floor height calculation
             var totalBrick = floorHeight * brickPerFeet; //total brick calculation
-            return totalBrick; 
+            return totalBrick;
         }
 
         else if (floor > 10 && floor <= 20) {
-            var remainderFloor = floor % 10; // remain floor count
+            var remainderFloor = floor - 10; // remain floor count
             var totalBrick = firstTenFloor + (remainderFloor * 12 * brickPerFeet);
             return totalBrick;
         }
